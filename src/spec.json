@@ -1,0 +1,218 @@
+{
+  "title": "Registro presenze del laboratorio",
+  "description": "Prototipo per registrare e consultare entrate, uscite e attività svolte durante gli incontri del laboratorio didattico. I dati sono interamente inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Riepilogo delle presenze registrate e degli incontri del laboratorio.",
+      "metrics": [
+        {
+          "label": "Incontri registrati",
+          "value": "12"
+        },
+        {
+          "label": "Presenze totali",
+          "value": "84"
+        },
+        {
+          "label": "Uscite registrate",
+          "value": "79"
+        },
+        {
+          "label": "Attività annotate",
+          "value": "76"
+        }
+      ],
+      "columns": [
+        "Incontro",
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [
+        [
+          "Lumo 01",
+          "12/03/2025",
+          "Nubi",
+          "09:05",
+          "11:55",
+          "Esperimenti di luce"
+        ],
+        [
+          "Lumo 02",
+          "14/03/2025",
+          "Vela",
+          "09:00",
+          "12:00",
+          "Costruzioni modulari"
+        ],
+        [
+          "Lumo 03",
+          "19/03/2025",
+          "Rugiada",
+          "09:12",
+          "11:48",
+          "Osservazione dei materiali"
+        ]
+      ],
+      "form": [
+        "Incontro",
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ]
+    },
+    {
+      "id": "registro-presenze",
+      "title": "Registro presenze",
+      "description": "Consulta e aggiorna entrate, uscite e attività per ciascun partecipante. La tabella supporta la ricerca e il filtraggio per incontro e partecipante.",
+      "metrics": [
+        {
+          "label": "Righe visualizzate",
+          "value": "6"
+        },
+        {
+          "label": "Uscite da completare",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Incontro",
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [
+        [
+          "Lumo 01",
+          "12/03/2025",
+          "Nubi",
+          "09:05",
+          "11:55",
+          "Esperimenti di luce"
+        ],
+        [
+          "Lumo 01",
+          "12/03/2025",
+          "Vela",
+          "09:00",
+          "12:00",
+          "Esperimenti di luce"
+        ],
+        [
+          "Lumo 02",
+          "14/03/2025",
+          "Rugiada",
+          "09:12",
+          "11:48",
+          "Costruzioni modulari"
+        ],
+        [
+          "Lumo 02",
+          "14/03/2025",
+          "Bruma",
+          "09:08",
+          "12:02",
+          "Costruzioni modulari"
+        ],
+        [
+          "Lumo 03",
+          "19/03/2025",
+          "Nubi",
+          "09:03",
+          "—",
+          "Osservazione dei materiali"
+        ],
+        [
+          "Lumo 03",
+          "19/03/2025",
+          "Vela",
+          "09:10",
+          "11:50",
+          "Osservazione dei materiali"
+        ]
+      ],
+      "form": [
+        "Incontro",
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ]
+    },
+    {
+      "id": "incontri",
+      "title": "Incontri",
+      "description": "Gestisci il calendario degli incontri e le attività previste. Ricerca e filtri consentono di individuare rapidamente una sessione.",
+      "metrics": [
+        {
+          "label": "Incontri pianificati",
+          "value": "4"
+        },
+        {
+          "label": "Incontri conclusi",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Incontro",
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [
+        [
+          "Lumo 01",
+          "12/03/2025",
+          "Nubi",
+          "09:05",
+          "11:55",
+          "Esperimenti di luce"
+        ],
+        [
+          "Lumo 02",
+          "14/03/2025",
+          "Vela",
+          "09:00",
+          "12:00",
+          "Costruzioni modulari"
+        ],
+        [
+          "Lumo 03",
+          "19/03/2025",
+          "Rugiada",
+          "09:12",
+          "11:48",
+          "Osservazione dei materiali"
+        ],
+        [
+          "Lumo 04",
+          "21/03/2025",
+          "Bruma",
+          "—",
+          "—",
+          "Forme e texture"
+        ]
+      ],
+      "form": [
+        "Incontro",
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ]
+    }
+  ]
+}
